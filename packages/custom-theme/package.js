@@ -45,7 +45,8 @@ Package.onUse(function (api) {
       //templates
       'lib/client/templates/profile/change-password.html',
       'lib/client/templates/hero/banner.html',
-      'lib/client/templates/hero/banner.js'
+      'lib/client/templates/hero/banner.js',
+      'lib/client/templates/posts/custom_post_title.html'
     ],
     'client'
   );
