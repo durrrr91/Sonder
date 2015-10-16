@@ -73,12 +73,20 @@ Users.can.post = function (user, returnError) {
 Users.helpers({canPost: function () {return Users.can.post(this);}});
 
 Users.can.comment = function (user, returnError) {
-  return Users.can.post(user, returnError);
+  if (!user) {
+    return false;
+  }else{
+    return true;
+  }
 };
 Users.helpers({canComment: function () {return Users.can.comment(this);}});
 
 Users.can.vote = function (user, returnError) {
-  return Users.can.post(user, returnError);
+  if (!user) {
+    return false;
+  }else{
+    return true;
+  }
 };
 Users.helpers({canVote: function () {return Users.can.vote(this);}});
 

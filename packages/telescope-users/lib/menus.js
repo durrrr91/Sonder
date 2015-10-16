@@ -21,14 +21,14 @@ var userMenuItems = [
     label: 'profile',
     description: 'view_your_profile'
   },
-  {
-    route: function () {
-      var user = Meteor.user();
-      return FlowRouter.path('userEdit', {_idOrSlug: user && user.telescope && user.telescope.slug});
-    },
-    label: 'edit_account',
-    description: 'edit_your_profile'
-  },
+  // {
+  //   route: function () {
+  //     var user = Meteor.user();
+  //     return FlowRouter.path('userEdit', {_idOrSlug: user && user.telescope && user.telescope.slug});
+  //   },
+  //   label: 'edit_account',
+  //   description: 'edit_your_profile'
+  // },
   {
     route: 'adminSettings',
     label: 'settings',

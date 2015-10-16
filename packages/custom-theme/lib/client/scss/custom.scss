@@ -1,0 +1,32 @@
+.category-heading{
+	height: 250px;
+	color: #FFF;
+	.main-category-title{
+		font-size: 52px;
+	}
+}
+.top-nav{
+	.header{
+		color: #4e555d;
+		background-color: #fff;
+		.submit-button{
+			display: none;
+		}
+		.search.empty #search.search-field {
+		    color: #4e555d !important;
+		}
+		.secondary-nav{
+			.menu-dropdown{
+				.menu-items{
+					left: auto;
+					right: 0;
+				}
+			}
+		}
+	}
+}
+.mobile-nav{
+	.submit-button{
+    	display: none;
+    }
+}

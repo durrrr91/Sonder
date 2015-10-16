@@ -9,5 +9,7 @@
   "link" : "връзка",
   "edit" : "редактирай",
   "reply" : "отговор",
-  "no_comments" : "Няма коментари."
+  "no_comments" : "Няма коментари.",
+  "please_log_in_to_comment": "Моля влезте в системата за да коментирате.",
+  "sorry_you_do_not_have_the_rights_to_comments": "Нямате нужните права за да коментирате."
 }
