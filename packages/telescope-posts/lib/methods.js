@@ -322,7 +322,19 @@ Meteor.methods({
     Telescope.callbacks.runAsync("postDeleteAsync", post);
 
   },
+  deleteAllPosts: function(){
+    Posts.find({}).forEach(function(post){
+      if(!Meteor.userId() || !Users.can.editById(Meteor.userId(), post)) throw new Meteor.Error(606, 'You need permission to edit or delete a post');
 
+      // decrement post count
+      Users.update({_id: post.userId}, {$inc: {"telescope.postCount": -1}});
+
+      // delete post
+      Posts.remove(post._id);
+
+      Telescope.callbacks.runAsync("postDeleteAsync", post);
+    });
+  },
   checkForDuplicates: function (url) {
     Posts.checkForSameUrl(url);  
   }

@@ -9,7 +9,7 @@ Telescope.modules.remove("profileDisplay","user_posts");
 
 Telescope.modules.remove("footer","footer_code");
 
-Telescope.modules.add("top", {
+Telescope.modules.add("hero", {
   template: "banner",
   order: 10
 });
