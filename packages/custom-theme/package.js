@@ -17,6 +17,7 @@ Package.onUse(function (api) {
 
   api.addAssets([
     'public/img/logo.jpg',
+    'public/img/marker_w.png',
     'public/img/bulgaria.jpg'
   ], 'client');
 
