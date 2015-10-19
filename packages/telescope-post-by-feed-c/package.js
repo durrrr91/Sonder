@@ -37,6 +37,7 @@ Package.onUse(function(api) {
     'lib/server/fetch_feeds.js',
     'lib/server/cron.js',
     'lib/server/publications.js',
+    'lib/server/delete_inactive_offers.js',
     'lib/server/riobg.js',
     'lib/server/grabobg.js'
   ], ['server']);
