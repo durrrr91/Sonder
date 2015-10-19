@@ -3,7 +3,7 @@
   "add_and_remove_categories" : "Добавяне и премахване на дестинации.",
   "all_categories" : "Всички",
   "invalid_category" : "Невалидна дестинация",
-  "categoriesBehavior": "Позволи на потребителя да филтрира по:",
+  "categoriesBehavior": "Пoзволи на потребителя да филтрира по:",
   "categories_behavior_one_at_a_time": "само една дестинация наведнъж",
   "categories_behavior_multiple": "няколко дестинации наведнъж",
   "hideEmptyCategories": "Скривай празните дестинации"

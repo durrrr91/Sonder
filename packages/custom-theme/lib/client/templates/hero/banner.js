@@ -39,5 +39,26 @@ Template.banner.add_my_special_behavior = function () {
 	L.marker([51.5, -0.09], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=england'>Aнглия</a>");
 	L.marker([42.73, 25.48], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=bulgaria'>България</a>");
 	L.marker([39.07, 21.82], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=greece'>Гърция</a>");
+	L.marker([46.53, 24.84], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=romania'>Румъния</a>");
+	L.marker([38.96, 35.24], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=turkey'>Турция</a>");
+	L.marker([44.01, 21.00], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=serbia'>Сърбия</a>");
+ 	L.marker([43.90, 15.56], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=croatia'>Хърватия</a>");
+ 	L.marker([46.95, 19.47], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=hungary'>Унгария</a>");
+ 	L.marker([47.24, 14.33], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=austria'>Австрия</a>");
+ 	L.marker([50.21, 14.46], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=czech_republic'>Чехия</a>");
+ 	L.marker([50.35, 10.07], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=germany'>Германия</a>");
+ 	L.marker([42.79, 12.06], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=italy'>Италия</a>");
+ 	L.marker([46.50, 2.57], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=france'>Франция</a>");
+	L.marker([39.38, -3.36], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=spain'>Испания</a>");
+	L.marker([46.57, 7.40], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=switzerland'>Швейцария</a>");
+	L.marker([25.20, 55.27], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=uae'>Обединени арабски емирства</a>");
+	L.marker([31.04, 34.85], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=israel'>Израел</a>");
+	L.marker([21.52, -77.78], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=cuba'>Куба</a>");
+	L.marker([20.59, 78.96], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=india'>Индия</a>");
+	L.marker([-8.40, 115.18], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=bali'>Бали</a>");
+	L.marker([4.21, 101.97], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=malaysia'>Малайзия</a>");
+	L.marker([15.87, 100.99], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=thailand'>Тайланд</a>");
+	L.marker([-14.23, -51.92], {icon: whiteMarker}).addTo(map).bindPopup("<a href='/?cat%5B0%5D=brasil'>Бразилия</a>");
+
   });
 };
