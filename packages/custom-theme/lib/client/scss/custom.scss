@@ -6,8 +6,12 @@ body, textarea, input, button, input[type="submit"], input[type="button"]{
 .category-heading{
 	height: 250px;
 	color: #FFF;
+	padding: 0 !important;
 	.main-category-title{
 		font-size: 52px;
+	}
+	.darkbg{
+		background-color: rgba(0,0,0,0.5);
 	}
 }
 .top-nav{

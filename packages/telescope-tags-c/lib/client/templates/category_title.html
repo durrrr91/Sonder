@@ -3,19 +3,21 @@
     <div class="category-heading-wrapper post-list-title">
       {{#each categories}}
         <div class="category-heading" style="background-image: url('{{image}}')"> 
-          <div class="category-title">
-            {{#with categoryParents}}
-              <div class="category-parents">
-                {{#each this}}
-                  <a href="{{this.getUrl}}">{{title}}</a> {{{icon "next"}}}
-                {{/each}}
-              </div>
-            {{/with}}
-            <h2 class="main-category-title">{{title}}</h2>
+          <div class="darkbg">  
+            <div class="category-title">
+              {{#with categoryParents}}
+                <div class="category-parents">
+                  {{#each this}}
+                    <a href="{{this.getUrl}}">{{title}}</a> {{{icon "next"}}}
+                  {{/each}}
+                </div>
+              {{/with}}
+              <h2 class="main-category-title">{{title}}</h2>
+            </div>
+            {{#if description}}
+              <h3 class="category-description">{{description}}</h3>
+            {{/if}}
           </div>
-          {{#if description}}
-            <h3 class="category-description">{{description}}</h3>
-          {{/if}}
         </div>
       {{/each}}
     </div>
